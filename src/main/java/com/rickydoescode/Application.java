@@ -1,13 +1,13 @@
-package com.rickydoescode.kata;
+package com.rickydoescode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KataApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KataApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
