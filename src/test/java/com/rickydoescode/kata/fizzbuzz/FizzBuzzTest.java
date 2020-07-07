@@ -86,6 +86,6 @@ class FizzBuzzTest {
 
         assertThat(fizzBuzz.play(4)).isEqualTo("fuzz");
         assertThat(fizzBuzz.play(9)).isEqualTo("bizz");
-        assertThat(fizzBuzz.play(12)).isEqualTo("fuzz biz");
+        assertThat(fizzBuzz.play(12)).isEqualTo("fuzz bizz");
     }
 }

@@ -13,12 +13,15 @@ public class FizzBuzz {
     }
 
     public String play(int input) {
+        StringBuilder word = new StringBuilder();
         for (Substitution substitution : substitutions) {
-            StringBuilder word = new StringBuilder();
             if (input % substitution.getValue() == 0) {
                 word.append(substitution.getWord() + " ");
             }
-            return word.toString().trim();
+        }
+        String wordValue = word.toString().trim();
+        if (wordValue.length() > 0) {
+            return wordValue;
         }
 
         if (input % 3 == 0 && input % 5 == 0) {
